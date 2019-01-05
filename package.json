@@ -3,9 +3,7 @@
   "version": "1.0.6",
   "description": "A small and powerful library which can help you change or add classnames quickly and easily",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "repository": "AddOneDn/astro-classname",
   "keywords": [
     "classname",
     "react",
@@ -14,5 +12,5 @@
     "javascript"
   ],
   "author": "addoneg",
-  "license": "ISC"
+  "license": "MIT"
 }
