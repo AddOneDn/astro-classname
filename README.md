@@ -1,5 +1,7 @@
 ## astro-classname
 
+[![](https://img.shields.io/bundlephobia/min/react.svg)](https://github.com/AddOneDn/astro-classname)
+[![](https://img.shields.io/npm/dt/localeval.svg)](https://www.npmjs.com/package/astro-classname)
 A small and powerful package which can help you change or add classnames quickly and easily
 
 ### install
