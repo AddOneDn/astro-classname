@@ -29,6 +29,8 @@ function classname() {
         case "null":
         case "undefined":
           break;
+        case "string":
+          if(el.length === 0) break;
         default:
           res[el] = 'default';
           break;
@@ -97,3 +99,9 @@ function classname() {
 if (typeof module !== "undefined" && module.exports) {
   module.exports = classname;
 }
+
+
+let res = classname('zhui-btn', '', {
+  ['zhui-btn-primary']: true
+});
+console.log(res)
