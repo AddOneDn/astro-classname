@@ -99,9 +99,3 @@ function classname() {
 if (typeof module !== "undefined" && module.exports) {
   module.exports = classname;
 }
-
-
-let res = classname('zhui-btn', '', {
-  ['zhui-btn-primary']: true
-});
-console.log(res)
